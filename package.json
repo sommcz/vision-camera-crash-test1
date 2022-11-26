@@ -6,12 +6,16 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "android:start": "react-native run-android --no-packager && start cmd.exe /K yarn start",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "18.1.0",
-    "react-native": "0.70.6"
+    "react-native": "0.70.6",
+    "react-native-reanimated": "^2.13.0",
+    "react-native-restart": "^0.0.24",
+    "react-native-vision-camera": "^2.15.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
